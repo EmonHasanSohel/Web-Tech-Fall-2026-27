@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    background-color: #eef3f8;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.profile-card {
+    background-color: white;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#logo{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid darkturquoise;
+}
+
+.header{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-bottom: 25px;
+    background-color: slategray;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header h2 {
+    margin: 0 0 5px 0;
+}
+
+.header p {
+    margin: 0;
+    font-size: 15px;
+}
+
+fieldset{
+    background-color: #fcf6ef;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+legend{
+    background-color: darkturquoise;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 6px 14px ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;  
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px 8px; 
+    vertical-align: top;
+}
+
+.edu-table th, .edu-table td{
+    border: 1px solid burlywood;
+    padding: 10px;
+    text-align: left;
+}
+
+.edu-table th{
+    background-color: #f3d9b1;
+}
+
+ul{
+    margin: 5px 0;
+    padding-left: 20px;
+    line-height: 1.8;
+} 
