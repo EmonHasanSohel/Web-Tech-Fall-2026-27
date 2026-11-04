@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Volunteer Registration Form</title>
+        <link rel="stylesheet" href="../Design/Style.css">
+        <script src="../JS/Script.js"></script>
+    </head>
+    
+    <body>
+        <img src="logo.png" id="logo" alt="Sahayata Logo">
+
+        <br><br>
+        
+        <video controls poster="">
+           <source src="Sahayata_Intro.mp4" type="video/mp4">  
+           Your browser does not support the video tag.
+        </video>
+
+        <div class="header">
+            <h1> Volunteer Registration Form </h1>
+        </div>
+        <div class="topnav">
+            <a href="index.html"> Home</a>
+            <a href="About.html"> About SAHAYATA</a>
+            <a href="Contact.html"> Contact Us</a>
+        </div>
+
+        <form>
+            <fieldset>
+                <legend> Volunteer Personal Information </legend>
+                <table>
+                    <tr>
+                        <td> <label for="VolunteerName">Volunteer Name: </label> </td>
+                        <td> <input type="text" id="VolunteerName" placeholder="Enter Your Name" required> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="VolunteerAge"> Age: </label></td>
+                        <td> <input type="number" id="VolunteerAge" placeholder="Enter the Age" required> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="VolunteerEmail"> Email: </label></td>
+                        <td> <input type="email" id="VolunteerEmail" placeholder="Enter the Email" required> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Gender"> Gender: </label></td>
+                        <td> 
+                            <input type="radio" id="GenderM" name="gender" value="Male"> Male 
+                            <input type="radio" id="GenderF" name="gender" value="Female"> Female 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="IdentityProof"> Upload NID / Student ID: </label></td>
+                        <td> <input type="file" id="IdentityProof"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="DOB"> DOB: </label></td>
+                        <td> <input type="date" id="DOB"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Address"> Present Address: </label></td>
+                        <td> <textarea id="Address" placeholder="Enter Your Address" style="resize:none"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for="WorkingArea"> Preferred Working Area: </label></td>
+                        <td>
+                            <select id="WorkingArea">
+                                <option value="Blank"> -------------  </option>
+                                <option value="Dhaka"> Dhaka </option>
+                                <option value="Chittagong"> Chittagong </option>
+                                <option value="Mymensingh"> Mymensingh </option>
+                                <option value="Khulna"> Khulna </option>
+                                <option value="Barishal"> Barishal </option>
+                                <option value="Rangpur"> Rangpur </option>
+                                <option value="Sylhet"> Sylhet </option>
+                                <option value="Rajshahi"> Rajshahi </option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Preferred Role: </label></td>
+                        <td> 
+                            <input type="checkbox" id="Rescue" name="volunteertype" value="Rescue"> Rescue Team 
+                            <input type="checkbox" id="Relief" name="volunteertype" value="Relief"> Relief Distribution 
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend> Account Setup </legend>
+                <table>
+                    <tr> 
+                        <td> <label for="UserName"> User Name: </label></td>
+                        <td> <input type="text" id="UserName" required></td>
+                    </tr>
+                    <tr>
+                         <td> <label for="Password"> Password: </label></td>
+                        <td> <input type="password" id="Password" required></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br>
+
+            <input type="submit" id="submit" value="Signup">
+            <input type="reset" id="reset" value="Reset">
+        </form>
+        <div class="footer">
+            <h3> Created by Md. Emon Hasan Sohel </h3>
+        </div>
+
+    </body>
+</html>
